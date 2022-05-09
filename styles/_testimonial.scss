@@ -1,0 +1,46 @@
+.testimonial {
+  background-color: $color-white;
+  color: rgb(104, 104, 104);
+  width: 325px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-body {
+  padding: 25px 25px 20px;
+  text-align: left;
+  font-weight: 600;
+  line-height: 1.8em;
+  height: 260px;
+  & p {
+    margin-bottom: 0;
+  }
+}
+
+.profile-photo {
+  border-radius: 50%;
+  border: 5px solid $color-white;
+  width: 30%;
+  position: relative;
+  left: 90px;
+  top: 20px;
+}
+
+.testimonial-footer {
+  background-color: $color-blue;
+  color: $color-white;
+  overflow: hidden;
+  text-align: center;
+  padding: 50px 0 20px 0;
+  h1 {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 0.8em;
+    color: $color-light-blue;
+  }
+}

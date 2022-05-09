@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap");
+@import "./constants";
+@import "./testimonial";
+@import "./portfolio";
+@import "./socialmedia";
+
+body {
+  @include body-standard();
+}

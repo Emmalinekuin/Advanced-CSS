@@ -1,0 +1,87 @@
+.socialmedia-buttons {
+  position: fixed;
+  bottom: 5%;
+  right: 0px;
+  & a {
+    display: block;
+    text-align: start;
+    color: $color-white;
+    padding: 10px;
+  }
+}
+
+.social-blog {
+  background-color: #e17b77;
+  transform: translateX(170px);
+  transition: 500ms;
+  &:hover {
+    transform: translateX(0);
+    transition: ease-out 750ms;
+  }
+}
+
+.social-twitter {
+  background-color: #00aced;
+  transform: translateX(170px);
+  transition: 500ms;
+  &:hover {
+    transform: translateX(0);
+    transition: ease-out 750ms;
+  }
+}
+
+.social-linkedin {
+  background-color: #007bb6;
+  transform: translateX(170px);
+  transition: 500ms;
+  &:hover {
+    transform: translateX(0);
+    transition: ease-out 750ms;
+  }
+}
+
+.social-facebook {
+  background-color: #3b5998;
+  transform: translateX(170px);
+  transition: 500ms;
+  &:hover {
+    transform: translateX(0);
+    transition: ease-out 750ms;
+  }
+}
+
+.social-github {
+  background-color: #333;
+  transform: translateX(170px);
+  transition: 500ms;
+  &:hover {
+    transform: translateX(0);
+    transition: ease-out 750ms;
+  }
+}
+
+.fa-brands,
+.fa-solid {
+  color: $color-white;
+  font-size: 20px;
+}
+
+.fa-laptop-code::before {
+  margin: 0 50px 0 7.5px;
+}
+
+.fa-twitter::before {
+  margin: 0 40px 0 10px;
+}
+
+.fa-linkedin-in::before {
+  margin: 0 40px 0 10px;
+}
+
+.fa-facebook-f::before {
+  margin: 0 28px 0 12px;
+}
+
+.fa-github::before {
+  margin: 0 30px 0 10px;
+}

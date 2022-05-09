@@ -1,0 +1,8 @@
+$color-light-blue: #c3cfe2;
+$color-white: #fff;
+$color-blue: #686de0;
+
+@mixin body-standard {
+  font-family: "Pontano Sans", sans-serif;
+  background-color: $color-light-blue;
+}

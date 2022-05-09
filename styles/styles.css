@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap");
+.testimonial {
+  background-color: #fff;
+  color: #686868;
+  width: 325px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.testimonial-body {
+  padding: 25px 25px 20px;
+  text-align: left;
+  font-weight: 600;
+  line-height: 1.8em;
+  height: 260px;
+}
+
+.testimonial-body p {
+  margin-bottom: 0;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  width: 30%;
+  position: relative;
+  left: 90px;
+  top: 20px;
+}
+
+.testimonial-footer {
+  background-color: #686de0;
+  color: #fff;
+  overflow: hidden;
+  text-align: center;
+  padding: 50px 0 20px 0;
+}
+
+.testimonial-footer h1 {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.testimonial-footer h2 {
+  font-size: 0.8em;
+  color: #c3cfe2;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  row-gap: 25px;
+}
+
+.grid-item {
+  position: relative;
+}
+
+.grid-item:hover .overlay {
+  opacity: 1;
+}
+
+.image {
+  width: 200px;
+  border-radius: 10px;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  opacity: 0;
+  background-color: #252336;
+  -webkit-transition: 500ms ease-out;
+  transition: 500ms ease-out;
+}
+
+.button {
+  position: absolute;
+  left: 60px;
+  bottom: 92px;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-container {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+}
+
+.socialmedia-buttons {
+  position: fixed;
+  bottom: 5%;
+  right: 0px;
+}
+
+.socialmedia-buttons a {
+  display: block;
+  text-align: start;
+  color: #fff;
+  padding: 10px;
+}
+
+.social-blog {
+  background-color: #e17b77;
+  -webkit-transform: translateX(170px);
+          transform: translateX(170px);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.social-blog:hover {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: ease-out 750ms;
+  transition: ease-out 750ms;
+}
+
+.social-twitter {
+  background-color: #00aced;
+  -webkit-transform: translateX(170px);
+          transform: translateX(170px);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.social-twitter:hover {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: ease-out 750ms;
+  transition: ease-out 750ms;
+}
+
+.social-linkedin {
+  background-color: #007bb6;
+  -webkit-transform: translateX(170px);
+          transform: translateX(170px);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.social-linkedin:hover {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: ease-out 750ms;
+  transition: ease-out 750ms;
+}
+
+.social-facebook {
+  background-color: #3b5998;
+  -webkit-transform: translateX(170px);
+          transform: translateX(170px);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.social-facebook:hover {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: ease-out 750ms;
+  transition: ease-out 750ms;
+}
+
+.social-github {
+  background-color: #333;
+  -webkit-transform: translateX(170px);
+          transform: translateX(170px);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.social-github:hover {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: ease-out 750ms;
+  transition: ease-out 750ms;
+}
+
+.fa-brands,
+.fa-solid {
+  color: #fff;
+  font-size: 20px;
+}
+
+.fa-laptop-code::before {
+  margin: 0 50px 0 7.5px;
+}
+
+.fa-twitter::before {
+  margin: 0 40px 0 10px;
+}
+
+.fa-linkedin-in::before {
+  margin: 0 40px 0 10px;
+}
+
+.fa-facebook-f::before {
+  margin: 0 28px 0 12px;
+}
+
+.fa-github::before {
+  margin: 0 30px 0 10px;
+}
+
+body {
+  font-family: "Pontano Sans", sans-serif;
+  background-color: #c3cfe2;
+}
+/*# sourceMappingURL=styles.css.map */
